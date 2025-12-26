@@ -1,0 +1,22 @@
+[1.403s] Invoking command in '/home/ssafy/robot_ws/src/jetank_move_test': PYTHONPATH=/home/ssafy/robot_ws/src/build/SCSCtrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/SCSCtrl build --build-base /home/ssafy/robot_ws/src/build/SCSCtrl/build install --record /home/ssafy/robot_ws/src/build/SCSCtrl/install.log --single-version-externally-managed
+[1.699s] running egg_info
+[1.700s] writing ../build/SCSCtrl/SCSCtrl.egg-info/PKG-INFO
+[1.700s] writing dependency_links to ../build/SCSCtrl/SCSCtrl.egg-info/dependency_links.txt
+[1.700s] writing requirements to ../build/SCSCtrl/SCSCtrl.egg-info/requires.txt
+[1.700s] writing top-level names to ../build/SCSCtrl/SCSCtrl.egg-info/top_level.txt
+[1.703s] reading manifest file '../build/SCSCtrl/SCSCtrl.egg-info/SOURCES.txt'
+[1.704s] writing manifest file '../build/SCSCtrl/SCSCtrl.egg-info/SOURCES.txt'
+[1.704s] running build
+[1.705s] running build_py
+[1.707s] running install
+[1.707s] warning: build_py: byte-compiling is disabled, skipping.
+[1.707s] 
+[1.707s] running install_lib
+[1.709s] running install_egg_info
+[1.709s] warning: install_lib: byte-compiling is disabled, skipping.
+[1.709s] 
+[1.711s] removing '/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl-0.0.0-py3.10.egg-info' (and everything under it)
+[1.711s] Copying ../build/SCSCtrl/SCSCtrl.egg-info to /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl-0.0.0-py3.10.egg-info
+[1.712s] running install_scripts
+[1.739s] writing list of installed files to '/home/ssafy/robot_ws/src/build/SCSCtrl/install.log'
+[1.807s] Invoked command in '/home/ssafy/robot_ws/src/jetank_move_test' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/SCSCtrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/SCSCtrl build --build-base /home/ssafy/robot_ws/src/build/SCSCtrl/build install --record /home/ssafy/robot_ws/src/build/SCSCtrl/install.log --single-version-externally-managed

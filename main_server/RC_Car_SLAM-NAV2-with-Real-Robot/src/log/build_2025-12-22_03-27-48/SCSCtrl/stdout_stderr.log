@@ -1,0 +1,99 @@
+running egg_info
+creating ../build/SCSCtrl/SCSCtrl.egg-info
+writing ../build/SCSCtrl/SCSCtrl.egg-info/PKG-INFO
+writing dependency_links to ../build/SCSCtrl/SCSCtrl.egg-info/dependency_links.txt
+writing requirements to ../build/SCSCtrl/SCSCtrl.egg-info/requires.txt
+writing top-level names to ../build/SCSCtrl/SCSCtrl.egg-info/top_level.txt
+writing manifest file '../build/SCSCtrl/SCSCtrl.egg-info/SOURCES.txt'
+reading manifest file '../build/SCSCtrl/SCSCtrl.egg-info/SOURCES.txt'
+writing manifest file '../build/SCSCtrl/SCSCtrl.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl
+copying SCSCtrl/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl
+copying SCSCtrl/TTLServo.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/image.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/object_detection.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/robot.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/heartbeat.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/local_controller.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/jpeg_encoder.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/motor.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+copying jetbot/tensorrt_model.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/packet_handler.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/group_sync_read.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/scservo_def.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/protocol_packet_handler.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/group_sync_write.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+copying SCSCtrl/scservo_sdk/port_handler.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps
+copying jetbot/apps/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps
+copying jetbot/apps/wander.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps
+copying jetbot/apps/stats.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/ssd_tensorrt
+copying jetbot/ssd_tensorrt/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/ssd_tensorrt
+copying jetbot/ssd_tensorrt/ssd_tensorrt.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/ssd_tensorrt
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera
+copying jetbot/camera/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera
+copying jetbot/camera/opencv_gst_camera.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera
+copying jetbot/camera/zmq_camera.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera
+copying jetbot/camera/camera_base.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera
+creating /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils
+copying jetbot/utils/__init__.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils
+copying jetbot/utils/utils.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils
+copying jetbot/utils/create_jupyter_service.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils
+copying jetbot/utils/create_stats_service.py -> /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils
+warning: build_py: byte-compiling is disabled, skipping.
+
+running install
+running install_lib
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/packet_handler.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/group_sync_read.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/scservo_def.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/protocol_packet_handler.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/group_sync_write.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/scservo_sdk/port_handler.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl/scservo_sdk
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/SCSCtrl/TTLServo.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/apps
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/apps
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps/wander.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/apps
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/apps/stats.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/apps
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/ssd_tensorrt
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/ssd_tensorrt/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/ssd_tensorrt
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/ssd_tensorrt/ssd_tensorrt.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/ssd_tensorrt
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/image.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/object_detection.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/robot.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/heartbeat.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/local_controller.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/camera
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/camera
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera/opencv_gst_camera.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/camera
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera/zmq_camera.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/camera
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/camera/camera_base.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/camera
+creating /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/utils
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils/__init__.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/utils
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils/utils.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/utils
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils/create_jupyter_service.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/utils
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/utils/create_stats_service.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot/utils
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/jpeg_encoder.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/motor.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+copying /home/ssafy/robot_ws/src/build/SCSCtrl/build/lib/jetbot/tensorrt_model.py -> /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/jetbot
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_egg_info
+Copying ../build/SCSCtrl/SCSCtrl.egg-info to /home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages/SCSCtrl-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ssafy/robot_ws/src/build/SCSCtrl/install.log'

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-845a570f9699484decac.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rc_nav2_bt_nodes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_nav2_bt_nodes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_nav2_bt_nodes-8fbb2b632c4f0e054ad2.json",
+					"name" : "rc_nav2_bt_nodes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rc_nav2_bt_nodes_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rc_nav2_bt_nodes_uninstall-79ead34abb303670f7f8.json",
+					"name" : "rc_nav2_bt_nodes_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-87ed9e878cdd4151bb5e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes",
+		"source" : "/home/ssafy/robot_ws/src/rc_nav2_bt_nodes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

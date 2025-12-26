@@ -1,0 +1,3 @@
+source;share/SCSCtrl/hook/pythonpath.ps1
+source;share/SCSCtrl/hook/pythonpath.dsv
+source;share/SCSCtrl/hook/pythonpath.sh

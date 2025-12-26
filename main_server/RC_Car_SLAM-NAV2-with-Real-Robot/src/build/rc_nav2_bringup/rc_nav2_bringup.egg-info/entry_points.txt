@@ -1,0 +1,3 @@
+[console_scripts]
+cmd_vel_bridge = rc_nav2_bringup.cmd_vel_bridge:main
+

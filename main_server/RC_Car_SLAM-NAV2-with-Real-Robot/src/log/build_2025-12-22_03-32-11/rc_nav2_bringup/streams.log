@@ -1,0 +1,25 @@
+[0.782s] Invoking command in '/home/ssafy/robot_ws/src/rc_nav2_bringup': AMENT_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_nav2_bringup build --build-base /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build install --record /home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log --single-version-externally-managed install_data
+[1.081s] running egg_info
+[1.082s] writing ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/PKG-INFO
+[1.082s] writing dependency_links to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/dependency_links.txt
+[1.082s] writing entry points to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/entry_points.txt
+[1.082s] writing requirements to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/requires.txt
+[1.082s] writing top-level names to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/top_level.txt
+[1.085s] reading manifest file '../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/SOURCES.txt'
+[1.086s] writing manifest file '../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/SOURCES.txt'
+[1.086s] running build
+[1.086s] running build_py
+[1.086s] running install
+[1.086s] warning: build_py: byte-compiling is disabled, skipping.
+[1.086s] 
+[1.086s] running install_lib
+[1.087s] running install_data
+[1.087s] warning: install_lib: byte-compiling is disabled, skipping.
+[1.087s] 
+[1.088s] running install_egg_info
+[1.090s] removing '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup-0.1.0-py3.10.egg-info' (and everything under it)
+[1.090s] Copying ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info to /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup-0.1.0-py3.10.egg-info
+[1.091s] running install_scripts
+[1.116s] Installing cmd_vel_bridge script to /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/rc_nav2_bringup
+[1.116s] writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log'
+[1.144s] Invoked command in '/home/ssafy/robot_ws/src/rc_nav2_bringup' returned '0': AMENT_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_nav2_bringup build --build-base /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build install --record /home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log --single-version-externally-managed install_data

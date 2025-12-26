@@ -1,0 +1,5 @@
+[console_scripts]
+odom_stamp_rewriter = rc_car_test_description.odom_stamp_rewriter:main
+scan_frame_rewriter = rc_car_test_description.scan_frame_rewriter:main
+twist_to_joint_cmd = rc_car_test_description.twist_to_joint_cmd:main
+

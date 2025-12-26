@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info
+writing ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/PKG-INFO
+writing dependency_links to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/dependency_links.txt
+writing entry points to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/entry_points.txt
+writing requirements to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/requires.txt
+writing top-level names to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/top_level.txt
+writing manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+reading manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+writing manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build
+creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib
+creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+copying rc_ackermann_joy/joy_to_ackermann.py -> /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+warning: build_py: byte-compiling is disabled, skipping.
+
+copying rc_ackermann_joy/__init__.py -> /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+running install
+running install_lib
+creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+copying /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy/joy_to_ackermann.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+warning: install_lib: byte-compiling is disabled, skipping.
+
+copying /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy/__init__.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+running install_data
+creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index
+creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index
+creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index/packages
+copying resource/rc_ackermann_joy -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy
+creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/launch
+copying launch/joy_to_ackermann.launch.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/launch
+running install_egg_info
+Copying ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_to_ackermann script to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/rc_ackermann_joy
+writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log'

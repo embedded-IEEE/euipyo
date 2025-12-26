@@ -1,0 +1,45 @@
+running egg_info
+creating ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info
+writing ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/PKG-INFO
+writing dependency_links to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/dependency_links.txt
+writing entry points to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/entry_points.txt
+writing requirements to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/requires.txt
+writing top-level names to ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/top_level.txt
+writing manifest file '../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/SOURCES.txt'
+reading manifest file '../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/SOURCES.txt'
+writing manifest file '../build/rc_nav2_bringup/rc_nav2_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build
+creating /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib
+creating /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib/rc_nav2_bringup
+copying rc_nav2_bringup/__init__.py -> /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib/rc_nav2_bringup
+copying rc_nav2_bringup/cmd_vel_bridge.py -> /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib/rc_nav2_bringup
+running install
+running install_lib
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup
+copying /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib/rc_nav2_bringup/__init__.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup
+copying /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build/lib/rc_nav2_bringup/cmd_vel_bridge.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup
+running install_data
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/ament_index
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/ament_index/resource_index
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/ament_index/resource_index/packages
+copying resource/rc_nav2_bringup -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/bringup_all.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/navigation.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/bringup_cartographer.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/bringup_slam_only.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/rf2o.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+copying launch/amcl.launch.py -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/launch
+creating /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/config
+copying config/cartographer_2d.lua -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/config
+copying config/simple_nav_to_pose.xml -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/config
+copying config/simple_nav_through_poses.xml -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/config
+copying config/nav2_params.yaml -> /home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/config
+running install_egg_info
+Copying ../build/rc_nav2_bringup/rc_nav2_bringup.egg-info to /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages/rc_nav2_bringup-0.1.0-py3.10.egg-info
+running install_scripts
+Installing cmd_vel_bridge script to /home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/rc_nav2_bringup
+writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log'

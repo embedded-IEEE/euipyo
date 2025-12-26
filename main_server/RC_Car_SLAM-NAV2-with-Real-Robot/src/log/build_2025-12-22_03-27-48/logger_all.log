@@ -1,0 +1,541 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.129s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7760b0a4fe80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7760b0a4f970>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7760b0a4f970>>)
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.358s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.358s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ssafy/robot_ws/src'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_description) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'jetank_description' with type 'ros.ament_cmake' and name 'jetank_description'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(jetank_move_test) by extension 'python_setup_py'
+[0.706s] DEBUG:colcon.colcon_core.package_identification:Package 'jetank_move_test' with type 'python' and name 'SCSCtrl'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extension 'ignore_ament_install'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extensions ['colcon_pkg']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(nav2_remote_goal) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'nav2_remote_goal' with type 'ros.ament_python' and name 'nav2_remote_goal'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extension 'colcon_pkg'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(rc_ackermann_joy) by extension 'ros'
+[0.711s] DEBUG:colcon.colcon_core.package_identification:Package 'rc_ackermann_joy' with type 'ros.ament_python' and name 'rc_ackermann_joy'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(rc_car_test_description) by extension 'ros'
+[0.714s] DEBUG:colcon.colcon_core.package_identification:Package 'rc_car_test_description' with type 'ros.ament_python' and name 'rc_car_test_description'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bringup) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'rc_nav2_bringup' with type 'ros.ament_python' and name 'rc_nav2_bringup'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extensions ['colcon_meta']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extension 'colcon_meta'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extensions ['ros']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(rc_nav2_bt_nodes) by extension 'ros'
+[0.718s] DEBUG:colcon.colcon_core.package_identification:Package 'rc_nav2_bt_nodes' with type 'ros.ament_cmake' and name 'rc_nav2_bt_nodes'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ros']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ros'
+[0.721s] DEBUG:colcon.colcon_core.package_identification:Package 'rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.723s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.765s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/ssafy/robot_ws/install
+[0.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/ssafy/rtabmap_ws/install
+[0.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/ssafy/nav2_ws/install
+[0.769s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 478 installed packages in /opt/ros/humble
+[0.771s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_target' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.835s] Level 5:colcon.colcon_core.verb:set package 'SCSCtrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.835s] DEBUG:colcon.colcon_core.verb:Building package 'SCSCtrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/SCSCtrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/SCSCtrl', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/jetank_move_test', 'symlink_install': False, 'test_result_base': None}
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'jetank_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.836s] DEBUG:colcon.colcon_core.verb:Building package 'jetank_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/jetank_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/jetank_description', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/jetank_description', 'symlink_install': False, 'test_result_base': None}
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_target' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_clean_first' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'cmake_force_configure' from command line to 'False'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'ament_cmake_args' from command line to 'None'
+[0.836s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'nav2_remote_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.837s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_remote_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/nav2_remote_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/nav2_remote_goal', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/nav2_remote_goal', 'symlink_install': False, 'test_result_base': None}
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_target' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_ackermann_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.837s] DEBUG:colcon.colcon_core.verb:Building package 'rc_ackermann_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/rc_ackermann_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/rc_ackermann_joy', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/rc_ackermann_joy', 'symlink_install': False, 'test_result_base': None}
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_target' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_car_test_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.838s] DEBUG:colcon.colcon_core.verb:Building package 'rc_car_test_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/rc_car_test_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/rc_car_test_description', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/rc_car_test_description', 'symlink_install': False, 'test_result_base': None}
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_target' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.838s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bt_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.838s] DEBUG:colcon.colcon_core.verb:Building package 'rc_nav2_bt_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/rc_nav2_bt_nodes', 'symlink_install': False, 'test_result_base': None}
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_target' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.839s] Level 5:colcon.colcon_core.verb:set package 'rc_nav2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.839s] DEBUG:colcon.colcon_core.verb:Building package 'rc_nav2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ssafy/robot_ws/src/build/rc_nav2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ssafy/robot_ws/src/install/rc_nav2_bringup', 'merge_install': False, 'path': '/home/ssafy/robot_ws/src/rc_nav2_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.840s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.841s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/robot_ws/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.841s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/robot_ws/src/rf2o_laser_odometry'
+[0.844s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/robot_ws/src/jetank_move_test'
+[0.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.856s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/robot_ws/src/jetank_description' with build type 'ament_cmake'
+[0.856s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/robot_ws/src/jetank_description'
+[0.856s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.856s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.862s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/robot_ws/src/nav2_remote_goal' with build type 'ament_python'
+[0.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_remote_goal', 'ament_prefix_path')
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/ament_prefix_path.ps1'
+[0.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/ament_prefix_path.dsv'
+[0.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/ament_prefix_path.sh'
+[0.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.870s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/robot_ws/src/rc_ackermann_joy' with build type 'ament_python'
+[0.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_ackermann_joy', 'ament_prefix_path')
+[0.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/ament_prefix_path.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/ament_prefix_path.dsv'
+[0.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/ament_prefix_path.sh'
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.878s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/robot_ws/src/rc_car_test_description' with build type 'ament_python'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_car_test_description', 'ament_prefix_path')
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/ament_prefix_path.ps1'
+[0.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/ament_prefix_path.dsv'
+[0.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/ament_prefix_path.sh'
+[0.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.886s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ssafy/robot_ws/src/rc_nav2_bt_nodes' with build type 'ament_cmake'
+[0.886s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ssafy/robot_ws/src/rc_nav2_bt_nodes'
+[0.886s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.886s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry
+[1.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/jetank_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/jetank_description
+[1.548s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/robot_ws/src/nav2_remote_goal'
+[1.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.873s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/robot_ws/src/rc_ackermann_joy'
+[1.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.213s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/robot_ws/src/rc_car_test_description'
+[2.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rc_nav2_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes
+[2.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/jetank_move_test': PYTHONPATH=/home/ssafy/robot_ws/src/build/SCSCtrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/SCSCtrl build --build-base /home/ssafy/robot_ws/src/build/SCSCtrl/build install --record /home/ssafy/robot_ws/src/build/SCSCtrl/install.log --single-version-externally-managed
+[2.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/jetank_move_test' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/SCSCtrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/SCSCtrl build --build-base /home/ssafy/robot_ws/src/build/SCSCtrl/build install --record /home/ssafy/robot_ws/src/build/SCSCtrl/install.log --single-version-externally-managed
+[2.613s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl' for CMake module files
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl' for CMake config files
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl/lib'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl/bin'
+[2.614s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl/lib/pkgconfig/SCSCtrl.pc'
+[2.615s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl/lib/python3.10/site-packages'
+[2.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('SCSCtrl', 'pythonpath')
+[2.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/hook/pythonpath.ps1'
+[2.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/hook/pythonpath.dsv'
+[2.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/hook/pythonpath.sh'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/SCSCtrl/bin'
+[2.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(SCSCtrl)
+[2.617s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/package.ps1'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/package.dsv'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/package.sh'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/package.bash'
+[2.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/SCSCtrl/share/SCSCtrl/package.zsh'
+[2.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/SCSCtrl/share/colcon-core/packages/SCSCtrl)
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/nav2_remote_goal': PYTHONPATH=/home/ssafy/robot_ws/src/build/nav2_remote_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/nav2_remote_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav2_remote_goal build --build-base /home/ssafy/robot_ws/src/build/nav2_remote_goal/build install --record /home/ssafy/robot_ws/src/build/nav2_remote_goal/install.log --single-version-externally-managed install_data
+[2.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/rc_ackermann_joy': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_ackermann_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_ackermann_joy build --build-base /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build install --record /home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log --single-version-externally-managed install_data
+[2.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/rc_car_test_description': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data
+[2.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rf2o_laser_odometry -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry
+[2.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[3.010s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal' for CMake module files
+[3.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/nav2_remote_goal' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/nav2_remote_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/nav2_remote_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/nav2_remote_goal build --build-base /home/ssafy/robot_ws/src/build/nav2_remote_goal/build install --record /home/ssafy/robot_ws/src/build/nav2_remote_goal/install.log --single-version-externally-managed install_data
+[3.012s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal' for CMake config files
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal/lib'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal/bin'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal/lib/pkgconfig/nav2_remote_goal.pc'
+[3.013s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal/lib/python3.10/site-packages'
+[3.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_remote_goal', 'pythonpath')
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/pythonpath.ps1'
+[3.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/pythonpath.dsv'
+[3.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/hook/pythonpath.sh'
+[3.016s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/nav2_remote_goal/bin'
+[3.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_remote_goal)
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/package.ps1'
+[3.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/package.dsv'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/package.sh'
+[3.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/package.bash'
+[3.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/nav2_remote_goal/package.zsh'
+[3.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/nav2_remote_goal/share/colcon-core/packages/nav2_remote_goal)
+[3.022s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy' for CMake module files
+[3.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/rc_ackermann_joy' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_ackermann_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_ackermann_joy build --build-base /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build install --record /home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log --single-version-externally-managed install_data
+[3.023s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy' for CMake config files
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/bin'
+[3.024s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/pkgconfig/rc_ackermann_joy.pc'
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages'
+[3.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_ackermann_joy', 'pythonpath')
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/pythonpath.ps1'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/pythonpath.dsv'
+[3.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/hook/pythonpath.sh'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/bin'
+[3.028s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_ackermann_joy)
+[3.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/package.ps1'
+[3.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/package.dsv'
+[3.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/package.sh'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/package.bash'
+[3.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/package.zsh'
+[3.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/colcon-core/packages/rc_ackermann_joy)
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description' for CMake module files
+[3.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/rc_car_test_description' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description' for CMake config files
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description/lib'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description/bin'
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/pkgconfig/rc_car_test_description.pc'
+[3.104s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages'
+[3.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_car_test_description', 'pythonpath')
+[3.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/pythonpath.ps1'
+[3.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/pythonpath.dsv'
+[3.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/hook/pythonpath.sh'
+[3.107s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_car_test_description/bin'
+[3.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_car_test_description)
+[3.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/package.ps1'
+[3.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/package.dsv'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/package.sh'
+[3.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/package.bash'
+[3.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/package.zsh'
+[3.110s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rc_car_test_description/share/colcon-core/packages/rc_car_test_description)
+[4.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rc_nav2_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes
+[4.156s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[4.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/jetank_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/jetank_description
+[4.226s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/jetank_description -- -j16 -l16
+[16.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/jetank_description -- -j16 -l16
+[16.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/jetank_description
+[16.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetank_description)
+[16.464s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description' for CMake module files
+[16.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/jetank_description
+[16.465s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description' for CMake config files
+[16.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetank_description', 'cmake_prefix_path')
+[16.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.ps1'
+[16.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.dsv'
+[16.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.sh'
+[16.468s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib'
+[16.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetank_description', 'ld_library_path_lib')
+[16.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.ps1'
+[16.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.dsv'
+[16.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.sh'
+[16.469s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/bin'
+[16.469s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib/pkgconfig/jetank_description.pc'
+[16.469s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib/python3.10/site-packages'
+[16.470s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/bin'
+[16.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.ps1'
+[16.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.dsv'
+[16.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.sh'
+[16.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.bash'
+[16.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.zsh'
+[16.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/jetank_description/share/colcon-core/packages/jetank_description)
+[16.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(jetank_description)
+[16.473s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description' for CMake module files
+[16.473s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description' for CMake config files
+[16.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetank_description', 'cmake_prefix_path')
+[16.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.ps1'
+[16.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.dsv'
+[16.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/cmake_prefix_path.sh'
+[16.475s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib'
+[16.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('jetank_description', 'ld_library_path_lib')
+[16.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.ps1'
+[16.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.dsv'
+[16.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/hook/ld_library_path_lib.sh'
+[16.477s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/bin'
+[16.477s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib/pkgconfig/jetank_description.pc'
+[16.477s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/lib/python3.10/site-packages'
+[16.478s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/jetank_description/bin'
+[16.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.ps1'
+[16.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.dsv'
+[16.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.sh'
+[16.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.bash'
+[16.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.zsh'
+[16.481s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/jetank_description/share/colcon-core/packages/jetank_description)
+[19.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[19.458s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes
+[19.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_nav2_bt_nodes)
+[19.480s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes' for CMake module files
+[19.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes
+[19.481s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes' for CMake config files
+[19.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bt_nodes', 'cmake_prefix_path')
+[19.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.ps1'
+[19.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.dsv'
+[19.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.sh'
+[19.483s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib'
+[19.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bt_nodes', 'ld_library_path_lib')
+[19.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.ps1'
+[19.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.dsv'
+[19.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.sh'
+[19.484s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/bin'
+[19.484s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/pkgconfig/rc_nav2_bt_nodes.pc'
+[19.485s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/python3.10/site-packages'
+[19.485s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/bin'
+[19.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.ps1'
+[19.486s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.dsv'
+[19.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.sh'
+[19.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.bash'
+[19.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.zsh'
+[19.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/colcon-core/packages/rc_nav2_bt_nodes)
+[19.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_nav2_bt_nodes)
+[19.488s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes' for CMake module files
+[19.489s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes' for CMake config files
+[19.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bt_nodes', 'cmake_prefix_path')
+[19.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.ps1'
+[19.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.dsv'
+[19.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/cmake_prefix_path.sh'
+[19.491s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib'
+[19.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bt_nodes', 'ld_library_path_lib')
+[19.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.ps1'
+[19.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.dsv'
+[19.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/hook/ld_library_path_lib.sh'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/bin'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/pkgconfig/rc_nav2_bt_nodes.pc'
+[19.492s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/python3.10/site-packages'
+[19.493s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/bin'
+[19.493s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.ps1'
+[19.494s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.dsv'
+[19.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.sh'
+[19.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.bash'
+[19.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.zsh'
+[19.495s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/colcon-core/packages/rc_nav2_bt_nodes)
+[28.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[28.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rf2o_laser_odometry
+[28.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[28.447s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry' for CMake module files
+[28.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rf2o_laser_odometry
+[28.448s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry' for CMake config files
+[28.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[28.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[28.449s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[28.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[28.450s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib'
+[28.450s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/bin'
+[28.450s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[28.450s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[28.451s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/bin'
+[28.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[28.452s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[28.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[28.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[28.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[28.453s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[28.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[28.454s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry' for CMake module files
+[28.455s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry' for CMake config files
+[28.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[28.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[28.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[28.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[28.456s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib'
+[28.456s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/bin'
+[28.456s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[28.457s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[28.457s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/bin'
+[28.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[28.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[28.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[28.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[28.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[28.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[28.460s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ssafy/robot_ws/src/rc_nav2_bringup' with build type 'ament_python'
+[28.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bringup', 'ament_prefix_path')
+[28.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/ament_prefix_path.ps1'
+[28.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/ament_prefix_path.dsv'
+[28.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/ament_prefix_path.sh'
+[28.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ssafy/robot_ws/src/rc_nav2_bringup'
+[28.793s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.793s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[29.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ssafy/robot_ws/src/rc_nav2_bringup': AMENT_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_nav2_bringup build --build-base /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build install --record /home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log --single-version-externally-managed install_data
+[29.590s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup' for CMake module files
+[29.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ssafy/robot_ws/src/rc_nav2_bringup' returned '0': AMENT_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ssafy/robot_ws/src/install/rf2o_laser_odometry:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_nav2_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_nav2_bringup build --build-base /home/ssafy/robot_ws/src/build/rc_nav2_bringup/build install --record /home/ssafy/robot_ws/src/build/rc_nav2_bringup/install.log --single-version-externally-managed install_data
+[29.591s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup' for CMake config files
+[29.592s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib'
+[29.592s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/bin'
+[29.592s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/pkgconfig/rc_nav2_bringup.pc'
+[29.592s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/lib/python3.10/site-packages'
+[29.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('rc_nav2_bringup', 'pythonpath')
+[29.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/pythonpath.ps1'
+[29.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/pythonpath.dsv'
+[29.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/hook/pythonpath.sh'
+[29.594s] Level 1:colcon.colcon_core.environment:checking '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/bin'
+[29.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rc_nav2_bringup)
+[29.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/package.ps1'
+[29.595s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/package.dsv'
+[29.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/package.sh'
+[29.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/package.bash'
+[29.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/rc_nav2_bringup/package.zsh'
+[29.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ssafy/robot_ws/src/install/rc_nav2_bringup/share/colcon-core/packages/rc_nav2_bringup)
+[29.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[29.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[29.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[29.597s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[29.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[29.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[29.604s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[29.617s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[29.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/robot_ws/src/install/local_setup.ps1'
+[29.619s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ssafy/robot_ws/src/install/_local_setup_util_ps1.py'
+[29.620s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/robot_ws/src/install/setup.ps1'
+[29.622s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/robot_ws/src/install/local_setup.sh'
+[29.622s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ssafy/robot_ws/src/install/_local_setup_util_sh.py'
+[29.623s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/robot_ws/src/install/setup.sh'
+[29.625s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/robot_ws/src/install/local_setup.bash'
+[29.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/robot_ws/src/install/setup.bash'
+[29.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ssafy/robot_ws/src/install/local_setup.zsh'
+[29.627s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ssafy/robot_ws/src/install/setup.zsh'

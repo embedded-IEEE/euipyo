@@ -1,0 +1,81 @@
+[1.806s] Invoking command in '/home/ssafy/robot_ws/src/rc_car_test_description': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data
+[2.148s] running egg_info
+[2.150s] creating ../build/rc_car_test_description/rc_car_test_description.egg-info
+[2.150s] writing ../build/rc_car_test_description/rc_car_test_description.egg-info/PKG-INFO
+[2.150s] writing dependency_links to ../build/rc_car_test_description/rc_car_test_description.egg-info/dependency_links.txt
+[2.150s] writing entry points to ../build/rc_car_test_description/rc_car_test_description.egg-info/entry_points.txt
+[2.150s] writing requirements to ../build/rc_car_test_description/rc_car_test_description.egg-info/requires.txt
+[2.150s] writing top-level names to ../build/rc_car_test_description/rc_car_test_description.egg-info/top_level.txt
+[2.151s] writing manifest file '../build/rc_car_test_description/rc_car_test_description.egg-info/SOURCES.txt'
+[2.153s] reading manifest file '../build/rc_car_test_description/rc_car_test_description.egg-info/SOURCES.txt'
+[2.154s] writing manifest file '../build/rc_car_test_description/rc_car_test_description.egg-info/SOURCES.txt'
+[2.154s] running build
+[2.154s] running build_py
+[2.154s] creating /home/ssafy/robot_ws/src/build/rc_car_test_description/build
+[2.154s] creating /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib
+[2.155s] creating /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description
+[2.155s] copying rc_car_test_description/__init__.py -> /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description
+[2.155s] copying rc_car_test_description/scan_frame_rewriter.py -> /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description
+[2.155s] copying rc_car_test_description/odom_stamp_rewriter.py -> /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description
+[2.155s] copying rc_car_test_description/twist_to_joint_cmd.py -> /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description
+[2.155s] warning: build_py: byte-compiling is disabled, skipping.
+[2.155s] 
+[2.155s] running install
+[2.155s] running install_lib
+[2.157s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description
+[2.157s] copying /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description/__init__.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description
+[2.157s] copying /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description/scan_frame_rewriter.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description
+[2.157s] copying /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description/odom_stamp_rewriter.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description
+[2.157s] copying /home/ssafy/robot_ws/src/build/rc_car_test_description/build/lib/rc_car_test_description/twist_to_joint_cmd.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description
+[2.157s] running install_data
+[2.157s] warning: install_lib: byte-compiling is disabled, skipping.
+[2.157s] 
+[2.157s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/ament_index
+[2.157s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/ament_index/resource_index
+[2.157s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/ament_index/resource_index/packages
+[2.158s] copying resource/rc_car_test_description -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/ament_index/resource_index/packages
+[2.158s] copying package.xml -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description
+[2.158s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/launch
+[2.158s] copying launch/gazebo.launch.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/launch
+[2.158s] copying launch/rc_car_controllers.launch.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/launch
+[2.158s] copying launch/display.launch.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/launch
+[2.158s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.158s] copying urdf/rc_car_test.ros2control -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.158s] copying urdf/rc_car_test.gazebo -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.159s] copying urdf/rc_car_test.xacro -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.159s] copying urdf/materials.xacro -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.159s] copying urdf/lidar.sdf -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/urdf
+[2.159s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes
+[2.159s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.159s] copying meshes/visual/base_link.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.159s] copying meshes/visual/steering_right_2.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.159s] copying meshes/visual/steering_left_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.159s] copying meshes/visual/rear_left_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.160s] copying meshes/visual/front_left_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.160s] copying meshes/visual/lidar_link_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.161s] copying meshes/visual/front_right_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.161s] copying meshes/visual/rear_right_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/visual
+[2.161s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.161s] copying meshes/collision/base_link.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.162s] copying meshes/collision/steering_right_2.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.162s] copying meshes/collision/steering_left_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.162s] copying meshes/collision/rear_left_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.163s] copying meshes/collision/front_left_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.163s] copying meshes/collision/lidar_link_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.163s] copying meshes/collision/front_right_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.163s] copying meshes/collision/rear_right_wheel_1.stl -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/meshes/collision
+[2.164s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/config
+[2.164s] copying config/rc_car_controllers.yaml -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/config
+[2.164s] copying config/gazebo.rviz -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/config
+[2.164s] copying config/ros_gz_bridge_gazebo.yaml -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/config
+[2.164s] copying config/display.rviz -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/config
+[2.164s] creating /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/worlds
+[2.164s] copying worlds/empty_with_sensors.sdf -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/worlds
+[2.165s] running install_egg_info
+[2.167s] Copying ../build/rc_car_test_description/rc_car_test_description.egg-info to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description-0.0.0-py3.10.egg-info
+[2.168s] running install_scripts
+[2.194s] Installing odom_stamp_rewriter script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.195s] Installing scan_frame_rewriter script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.195s] Installing twist_to_joint_cmd script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.195s] writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_car_test_description/install.log'
+[2.223s] Invoked command in '/home/ssafy/robot_ws/src/rc_car_test_description' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data

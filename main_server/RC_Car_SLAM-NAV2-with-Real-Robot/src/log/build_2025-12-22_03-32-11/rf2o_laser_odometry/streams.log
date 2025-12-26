@@ -1,0 +1,27 @@
+[0.055s] Invoking command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[1.386s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[1.387s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[1.387s] [ 40%] Built target rf2o_laser_odometry
+[1.387s] [100%] Built target rf2o_laser_odometry_node
+[1.389s] Invoked command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rf2o_laser_odometry -- -j16 -l16
+[1.401s] Invoking command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rf2o_laser_odometry
+[1.412s] -- Install configuration: ""
+[1.413s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[1.414s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[1.414s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[1.414s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[1.415s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[1.415s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[1.416s] -- Installing: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[1.416s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[1.436s] Invoked command in '/home/ssafy/robot_ws/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rf2o_laser_odometry

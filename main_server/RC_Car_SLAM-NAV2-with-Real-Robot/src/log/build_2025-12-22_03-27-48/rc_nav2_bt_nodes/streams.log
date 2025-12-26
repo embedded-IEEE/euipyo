@@ -1,0 +1,78 @@
+[1.344s] Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rc_nav2_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes
+[1.408s] -- The C compiler identification is GNU 11.4.0
+[1.473s] -- The CXX compiler identification is GNU 11.4.0
+[1.481s] -- Detecting C compiler ABI info
+[1.565s] -- Detecting C compiler ABI info - done
+[1.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.582s] -- Detecting C compile features
+[1.582s] -- Detecting C compile features - done
+[1.588s] -- Detecting CXX compiler ABI info
+[1.690s] -- Detecting CXX compiler ABI info - done
+[1.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.700s] -- Detecting CXX compile features
+[1.700s] -- Detecting CXX compile features - done
+[1.705s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.900s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.039s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.118s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.131s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.151s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.195s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.272s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.278s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[2.314s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.331s] -- Looking for pthread.h
+[2.422s] -- Looking for pthread.h - found
+[2.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.513s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.514s] -- Found Threads: TRUE  
+[2.595s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[2.644s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.766s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.791s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.792s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.792s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.799s] -- Found nav2_behavior_tree: 1.1.20 (/home/ssafy/nav2_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[3.127s] -- Configuring done
+[3.249s] -- Generating done
+[3.255s] -- Build files have been written to: /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes
+[3.266s] Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/rc_nav2_bt_nodes -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes
+[3.269s] Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[3.337s] [ 25%] [32mBuilding CXX object CMakeFiles/rc_nav2_bt_nodes.dir/src/compute_approach_goal.cpp.o[0m
+[3.337s] [ 50%] [32mBuilding CXX object CMakeFiles/rc_nav2_bt_nodes.dir/src/compute_approach_goals.cpp.o[0m
+[3.337s] [ 75%] [32mBuilding CXX object CMakeFiles/rc_nav2_bt_nodes.dir/src/near_goal_stopped_condition.cpp.o[0m
+[3.674s] In file included from [01m[K/home/ssafy/robot_ws/src/rc_nav2_bt_nodes/src/near_goal_stopped_condition.cpp:7[m[K:
+[3.674s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[3.674s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[3.674s]       |  [01;35m[K^~~~~~~[m[K
+[17.444s] [100%] [32m[1mLinking CXX shared library librc_nav2_bt_nodes.so[0m
+[18.555s] [100%] Built target rc_nav2_bt_nodes
+[18.570s] Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[18.572s] Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes
+[18.581s] -- Install configuration: ""
+[18.581s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/librc_nav2_bt_nodes.so
+[18.590s] -- Set runtime path of "/home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/librc_nav2_bt_nodes.so" to ""
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/compute_approach_goals.hpp
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/compute_approach_goal.hpp
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/near_goal_stopped_condition.hpp
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/behavior_tree
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/behavior_tree/near_goal_stopped_bt_node.xml
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/package_run_dependencies/rc_nav2_bt_nodes
+[18.590s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/parent_prefix_path/rc_nav2_bt_nodes
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/ament_prefix_path.sh
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/ament_prefix_path.dsv
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/path.sh
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/path.dsv
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.bash
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.sh
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.zsh
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.dsv
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.dsv
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/packages/rc_nav2_bt_nodes
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/cmake/rc_nav2_bt_nodesConfig.cmake
+[18.591s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/cmake/rc_nav2_bt_nodesConfig-version.cmake
+[18.592s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.xml
+[18.594s] Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes

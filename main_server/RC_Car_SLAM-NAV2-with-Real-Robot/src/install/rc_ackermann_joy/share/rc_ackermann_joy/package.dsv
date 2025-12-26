@@ -1,0 +1,6 @@
+source;share/rc_ackermann_joy/hook/pythonpath.ps1
+source;share/rc_ackermann_joy/hook/pythonpath.dsv
+source;share/rc_ackermann_joy/hook/pythonpath.sh
+source;share/rc_ackermann_joy/hook/ament_prefix_path.ps1
+source;share/rc_ackermann_joy/hook/ament_prefix_path.dsv
+source;share/rc_ackermann_joy/hook/ament_prefix_path.sh

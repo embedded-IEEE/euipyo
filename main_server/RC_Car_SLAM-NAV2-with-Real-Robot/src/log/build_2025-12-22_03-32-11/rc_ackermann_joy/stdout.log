@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/PKG-INFO
+writing dependency_links to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/dependency_links.txt
+writing entry points to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/entry_points.txt
+writing requirements to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/requires.txt
+writing top-level names to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/top_level.txt
+reading manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+writing manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_to_ackermann script to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/rc_ackermann_joy
+writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log'

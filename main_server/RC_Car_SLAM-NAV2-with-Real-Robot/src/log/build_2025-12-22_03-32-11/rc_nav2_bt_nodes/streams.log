@@ -1,0 +1,30 @@
+[1.366s] Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[1.419s] [35m[1mConsolidate compiler generated dependencies of target rc_nav2_bt_nodes[0m
+[1.445s] [100%] Built target rc_nav2_bt_nodes
+[1.769s] Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes -- -j16 -l16
+[1.770s] Invoking command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes
+[1.785s] -- Install configuration: ""
+[1.785s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/lib/librc_nav2_bt_nodes.so
+[1.785s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include
+[1.785s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes
+[1.785s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/compute_approach_goals.hpp
+[1.785s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/compute_approach_goal.hpp
+[1.786s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/include/rc_nav2_bt_nodes/near_goal_stopped_condition.hpp
+[1.786s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/behavior_tree
+[1.786s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/behavior_tree/near_goal_stopped_bt_node.xml
+[1.787s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/package_run_dependencies/rc_nav2_bt_nodes
+[1.788s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/parent_prefix_path/rc_nav2_bt_nodes
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/ament_prefix_path.sh
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/ament_prefix_path.dsv
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/path.sh
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/environment/path.dsv
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.bash
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.sh
+[1.789s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.zsh
+[1.790s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/local_setup.dsv
+[1.790s] -- Installing: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.dsv
+[1.790s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/ament_index/resource_index/packages/rc_nav2_bt_nodes
+[1.790s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/cmake/rc_nav2_bt_nodesConfig.cmake
+[1.790s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/cmake/rc_nav2_bt_nodesConfig-version.cmake
+[1.790s] -- Up-to-date: /home/ssafy/robot_ws/src/install/rc_nav2_bt_nodes/share/rc_nav2_bt_nodes/package.xml
+[1.791s] Invoked command in '/home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_ackermann_joy:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/rc_nav2_bt_nodes

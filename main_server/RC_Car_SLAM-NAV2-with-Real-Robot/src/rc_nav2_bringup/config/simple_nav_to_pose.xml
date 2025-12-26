@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <ReactiveFallback name="GoalOrNavigate">
+      <NearGoalStopped
+        dist_threshold="0.3"
+        vel_threshold="0.05"
+        hold_time="0.5"
+        global_frame="map"
+        base_frame="rc_car/base_link_rot"
+        goal="{goal}"
+        goal_topic="/goal_pose"
+        cmd_vel_topic="/rc_car/cmd_vel"/>
+      <PipelineSequence name="NavigateWithFinalAlign">
+        <RecoveryNode number_of_retries="6" name="NavigateRecovery">
+          <Sequence name="NavigateToPose">
+            <ComputePathToPose goal="{goal}" path="{path}" planner_id="SmacHybrid"/>
+            <FollowPath path="{path}" controller_id="FollowPath"/>
+          </Sequence>
+          <ReactiveFallback name="RecoveryOrGoalReached">
+            <NearGoalStopped
+              dist_threshold="0.3"
+              vel_threshold="0.05"
+              hold_time="0.5"
+              global_frame="map"
+              base_frame="rc_car/base_link_rot"
+              goal="{goal}"
+              goal_topic="/goal_pose"
+              cmd_vel_topic="/rc_car/cmd_vel"/>
+            <Sequence name="RecoveryActions">
+              <ReverseSteerRecovery
+                path="{path}"
+                goal="{goal}"
+                global_frame="map"
+                base_frame="rc_car/base_link_rot"
+                next_point_radius="0.5"
+                angle_threshold="0.87"
+                reverse_distance="0.5"
+                reverse_speed="0.4"
+                max_steer="0.8"
+                cmd_vel_topic="/rc_car/cmd_vel"/>
+              <RecoveryNode number_of_retries="1" name="ComputePathRecoveryAfterReverse">
+                <ComputePathToPose goal="{goal}" path="{path}" planner_id="SmacHybrid"/>
+                <Sequence name="ComputePathRecoveryAfterReverseActions">
+                  <BackUp backup_dist="0.5" backup_speed="0.3"/>
+                  <ComputePathToPose goal="{goal}" path="{path}" planner_id="SmacHybrid"/>
+                </Sequence>
+              </RecoveryNode>
+              <FollowPath path="{path}" controller_id="FollowPath"/>
+            </Sequence>
+          </ReactiveFallback>
+        </RecoveryNode>
+      </PipelineSequence>
+    </ReactiveFallback>
+  </BehaviorTree>
+</root>

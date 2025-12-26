@@ -1,0 +1,371 @@
+[0.363s] Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/jetank_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/jetank_description
+[1.367s] -- The C compiler identification is GNU 11.4.0
+[1.367s] -- The CXX compiler identification is GNU 11.4.0
+[1.367s] -- Detecting C compiler ABI info
+[1.367s] -- Detecting C compiler ABI info - done
+[1.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.368s] -- Detecting C compile features
+[1.368s] -- Detecting C compile features - done
+[1.368s] -- Detecting CXX compiler ABI info
+[1.368s] -- Detecting CXX compiler ABI info - done
+[1.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.368s] -- Detecting CXX compile features
+[1.368s] -- Detecting CXX compile features - done
+[1.368s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.368s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[1.368s] -- Searching for dependencies of ignition-gazebo6
+[1.368s] -- Looking for sdformat12 -- found version 12.8.0
+[1.369s] -- Searching for dependencies of sdformat12
+[1.369s] -- Checking for module 'tinyxml2'
+[1.369s] --   Found tinyxml2, version 9.0.0
+[1.369s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.369s] -- Searching for dependencies of ignition-math6
+[1.369s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.369s] -- Searching for dependencies of ignition-utils1
+[1.369s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[1.369s] -- Searching for dependencies of ignition-plugin1
+[1.369s] -- Searching for <ignition-plugin1> component [loader]
+[1.369s] -- Looking for ignition-plugin1-loader -- found version 1.4.0
+[1.369s] -- Searching for dependencies of ignition-plugin1-loader
+[1.369s] -- Searching for <ignition-plugin1> component [register]
+[1.369s] -- Looking for ignition-plugin1-register -- found version 1.4.0
+[1.369s] -- Searching for dependencies of ignition-plugin1-register
+[1.369s] -- Looking for ignition-transport11 -- found version 11.4.1
+[1.369s] -- Searching for dependencies of ignition-transport11
+[1.454s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.478s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.485s] -- Checking for module 'libzmq >= 4'
+[1.509s] --   Found libzmq , version 4.3.4
+[1.558s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.568s] -- Checking for module 'uuid'
+[1.587s] --   Found uuid, version 2.37.2
+[1.633s] -- Found UUID: TRUE  
+[1.634s] -- Looking for ignition-utils1 -- found version 1.5.1
+[1.634s] -- Searching for dependencies of ignition-utils1
+[1.635s] -- Searching for <ignition-utils1> component [cli]
+[1.642s] -- Looking for ignition-utils1-cli -- found version 1.5.1
+[1.643s] -- Searching for dependencies of ignition-utils1-cli
+[1.652s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.653s] -- Searching for dependencies of ignition-msgs8
+[1.687s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.689s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.709s] -- Searching for <ignition-transport11> component [log]
+[1.718s] -- Looking for ignition-transport11-log -- found version 11.4.1
+[1.718s] -- Searching for dependencies of ignition-transport11-log
+[1.720s] -- Searching for <ignition-transport11> component [parameters]
+[1.727s] -- Looking for ignition-transport11-parameters -- found version 11.4.1
+[1.728s] -- Searching for dependencies of ignition-transport11-parameters
+[1.730s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[1.738s] -- Looking for ignition-common4 -- found version 4.7.0
+[1.738s] -- Searching for dependencies of ignition-common4
+[1.739s] -- Looking for dlfcn.h - found
+[1.741s] -- Looking for libdl - found
+[1.744s] -- Found DL: TRUE  
+[1.759s] -- Searching for <ignition-common4> component [profiler]
+[1.767s] -- Looking for ignition-common4-profiler -- found version 4.7.0
+[1.768s] -- Searching for dependencies of ignition-common4-profiler
+[1.769s] -- Searching for <ignition-common4> component [events]
+[1.777s] -- Looking for ignition-common4-events -- found version 4.7.0
+[1.778s] -- Searching for dependencies of ignition-common4-events
+[1.779s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.780s] -- Searching for <ignition-common4> component [av]
+[1.788s] -- Looking for ignition-common4-av -- found version 4.7.0
+[1.789s] -- Searching for dependencies of ignition-common4-av
+[1.798s] -- Checking for module 'libswscale'
+[1.819s] --   Found libswscale, version 5.9.100
+[1.867s] -- Found SWSCALE: TRUE  
+[1.875s] -- Checking for module 'libavdevice >= 56.4.100'
+[1.896s] --   Found libavdevice , version 58.13.100
+[1.950s] -- Found AVDEVICE: TRUE (Required is at least version "56.4.100") 
+[1.958s] -- Checking for module 'libavformat'
+[1.979s] --   Found libavformat, version 58.76.100
+[2.029s] -- Found AVFORMAT: TRUE  
+[2.038s] -- Checking for module 'libavcodec'
+[2.059s] --   Found libavcodec, version 58.134.100
+[2.109s] -- Found AVCODEC: TRUE  
+[2.118s] -- Checking for module 'libavutil'
+[2.139s] --   Found libavutil, version 56.70.100
+[2.190s] -- Found AVUTIL: TRUE  
+[2.199s] -- Looking for ignition-fuel_tools7 -- found version 7.3.1
+[2.200s] -- Searching for dependencies of ignition-fuel_tools7
+[2.325s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.343s] -- Checking for module 'jsoncpp'
+[2.363s] --   Found jsoncpp, version 1.9.5
+[2.408s] -- Found JSONCPP: TRUE  
+[2.417s] -- Checking for module 'libzip'
+[2.437s] --   Found libzip, version 1.7.3
+[2.480s] -- Found ZIP: TRUE  
+[2.480s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.481s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.481s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.487s] -- Looking for ignition-gui6 -- found version 6.8.0
+[2.488s] -- Searching for dependencies of ignition-gui6
+[2.522s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.522s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.523s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.523s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.529s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.529s] -- Searching for dependencies of ignition-rendering6
+[2.529s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.530s] -- Searching for dependencies of ignition-math6
+[2.530s] -- Searching for <ignition-math6> component [eigen3]
+[2.535s] -- Looking for ignition-math6-eigen3 -- found version 6.15.1
+[2.536s] -- Searching for dependencies of ignition-math6-eigen3
+[2.547s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.548s] -- Searching for dependencies of ignition-common4
+[2.548s] -- Looking for dlfcn.h - found
+[2.548s] -- Looking for libdl - found
+[2.559s] -- Searching for <ignition-common4> component [graphics]
+[2.565s] -- Looking for ignition-common4-graphics -- found version 4.7.0
+[2.565s] -- Searching for dependencies of ignition-common4-graphics
+[2.565s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.566s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.567s] -- Searching for <ignition-common4> component [events]
+[2.568s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.568s] -- Searching for dependencies of ignition-plugin1
+[2.568s] -- Searching for <ignition-plugin1> component [all]
+[2.573s] -- Looking for all libraries of ignition-plugin1 -- found version 1.4.0
+[2.574s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.577s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.624s] -- Looking for ignition-physics5 -- found version 5.3.2
+[2.624s] -- Searching for dependencies of ignition-physics5
+[2.625s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.625s] -- Looking for ignition-plugin1 -- found version 1.4.0
+[2.626s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.627s] -- Searching for <ignition-physics5> component [heightmap]
+[2.632s] -- Looking for ignition-physics5-heightmap -- found version 5.3.2
+[2.633s] -- Searching for dependencies of ignition-physics5-heightmap
+[2.633s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.634s] -- Searching for <ignition-physics5> component [mesh]
+[2.639s] -- Looking for ignition-physics5-mesh -- found version 5.3.2
+[2.639s] -- Searching for dependencies of ignition-physics5-mesh
+[2.640s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.641s] -- Searching for <ignition-physics5> component [sdf]
+[2.645s] -- Looking for ignition-physics5-sdf -- found version 5.3.2
+[2.646s] -- Searching for dependencies of ignition-physics5-sdf
+[2.647s] -- Looking for sdformat12 -- found version 12.8.0
+[2.653s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.653s] -- Searching for dependencies of ignition-sensors6
+[2.677s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.678s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.678s] -- Looking for ignition-common4 -- found version 4.7.0
+[2.679s] -- Looking for ignition-transport11 -- found version 11.4.1
+[2.679s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.680s] -- Looking for ignition-msgs8 -- found version 8.7.0
+[2.680s] -- Looking for sdformat12 -- found version 12.8.0
+[2.681s] -- Searching for <ignition-sensors6> component [air_pressure]
+[2.686s] -- Looking for ignition-sensors6-air_pressure -- found version 6.8.1
+[2.687s] -- Searching for dependencies of ignition-sensors6-air_pressure
+[2.688s] -- Searching for <ignition-sensors6> component [altimeter]
+[2.693s] -- Looking for ignition-sensors6-altimeter -- found version 6.8.1
+[2.693s] -- Searching for dependencies of ignition-sensors6-altimeter
+[2.694s] -- Searching for <ignition-sensors6> component [imu]
+[2.699s] -- Looking for ignition-sensors6-imu -- found version 6.8.1
+[2.699s] -- Searching for dependencies of ignition-sensors6-imu
+[2.700s] -- Searching for <ignition-sensors6> component [force_torque]
+[2.705s] -- Looking for ignition-sensors6-force_torque -- found version 6.8.1
+[2.706s] -- Searching for dependencies of ignition-sensors6-force_torque
+[2.706s] -- Searching for <ignition-sensors6> component [logical_camera]
+[2.711s] -- Looking for ignition-sensors6-logical_camera -- found version 6.8.1
+[2.712s] -- Searching for dependencies of ignition-sensors6-logical_camera
+[2.713s] -- Searching for <ignition-sensors6> component [magnetometer]
+[2.718s] -- Looking for ignition-sensors6-magnetometer -- found version 6.8.1
+[2.718s] -- Searching for dependencies of ignition-sensors6-magnetometer
+[2.719s] -- Searching for <ignition-sensors6> component [navsat]
+[2.724s] -- Looking for ignition-sensors6-navsat -- found version 6.8.1
+[2.725s] -- Searching for dependencies of ignition-sensors6-navsat
+[2.725s] -- Searching for <ignition-sensors6> component [rendering]
+[2.731s] -- Looking for ignition-sensors6-rendering -- found version 6.8.1
+[2.731s] -- Searching for dependencies of ignition-sensors6-rendering
+[2.732s] -- Searching for <ignition-sensors6> component [lidar]
+[2.737s] -- Looking for ignition-sensors6-lidar -- found version 6.8.1
+[2.737s] -- Searching for dependencies of ignition-sensors6-lidar
+[2.738s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.739s] -- Searching for <ignition-sensors6> component [gpu_lidar]
+[2.744s] -- Looking for ignition-sensors6-gpu_lidar -- found version 6.8.1
+[2.744s] -- Searching for dependencies of ignition-sensors6-gpu_lidar
+[2.745s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.746s] -- Searching for <ignition-sensors6> component [camera]
+[2.751s] -- Looking for ignition-sensors6-camera -- found version 6.8.1
+[2.751s] -- Searching for dependencies of ignition-sensors6-camera
+[2.751s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.752s] -- Searching for <ignition-sensors6> component [boundingbox_camera]
+[2.758s] -- Looking for ignition-sensors6-boundingbox_camera -- found version 6.8.1
+[2.758s] -- Searching for dependencies of ignition-sensors6-boundingbox_camera
+[2.759s] -- Searching for <ignition-sensors6> component [segmentation_camera]
+[2.764s] -- Looking for ignition-sensors6-segmentation_camera -- found version 6.8.1
+[2.765s] -- Searching for dependencies of ignition-sensors6-segmentation_camera
+[2.766s] -- Searching for <ignition-sensors6> component [depth_camera]
+[2.771s] -- Looking for ignition-sensors6-depth_camera -- found version 6.8.1
+[2.771s] -- Searching for dependencies of ignition-sensors6-depth_camera
+[2.772s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.773s] -- Searching for <ignition-sensors6> component [rgbd_camera]
+[2.778s] -- Looking for ignition-sensors6-rgbd_camera -- found version 6.8.1
+[2.778s] -- Searching for dependencies of ignition-sensors6-rgbd_camera
+[2.778s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.779s] -- Searching for <ignition-sensors6> component [thermal_camera]
+[2.784s] -- Looking for ignition-sensors6-thermal_camera -- found version 6.8.1
+[2.785s] -- Searching for dependencies of ignition-sensors6-thermal_camera
+[2.785s] -- Looking for ignition-sensors6 -- found version 6.8.1
+[2.787s] -- Looking for ignition-rendering6 -- found version 6.6.3
+[2.787s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.792s] -- Looking for ignition-utils1 -- found version 1.5.1
+[2.823s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[2.886s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.896s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.910s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.958s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.030s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.035s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[3.071s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.087s] -- Found Threads: TRUE  
+[3.156s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.169s] -- Looking for ignition-gazebo6 -- found version 6.17.0
+[3.169s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.170s] -- Looking for ignition-transport11 -- found version 11.4.1
+[3.185s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.314s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.314s] -- Configured cppcheck include dirs: 
+[3.315s] -- Configured cppcheck exclude dirs and/or files: 
+[3.316s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.318s] -- Added test 'lint_cmake' to check CMake code style
+[3.319s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.323s] -- Added test 'uncrustify' to check C / C++ code style
+[3.323s] -- Configured uncrustify additional arguments: 
+[3.324s] -- Added test 'xmllint' to check XML markup files
+[3.326s] -- Configuring done
+[3.347s] -- Generating done
+[3.352s] -- Build files have been written to: /home/ssafy/robot_ws/src/build/jetank_description
+[3.368s] Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/ssafy/robot_ws/src/jetank_description -DCMAKE_INSTALL_PREFIX=/home/ssafy/robot_ws/src/install/jetank_description
+[3.370s] Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/jetank_description -- -j16 -l16
+[3.440s] [ 50%] [32mBuilding CXX object plugins/CMakeFiles/conveyor_plugin.dir/conveyor_plugin.cpp.o[0m
+[14.905s] [100%] [32m[1mLinking CXX shared library libconveyor_plugin.so[0m
+[15.493s] [100%] Built target conveyor_plugin
+[15.508s] Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/ssafy/robot_ws/src/build/jetank_description -- -j16 -l16
+[15.521s] Invoking command in '/home/ssafy/robot_ws/src/build/jetank_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/jetank_description
+[15.530s] -- Install configuration: ""
+[15.530s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch/gazebo1.launch.py
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch/gazebo.launch.py
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch/jetank_controllers.launch.py
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch/gazebo.launch_backup.py
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/launch/jetank_description.launch.py
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jetank_materials.xacro
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jetank_main.xacro
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jetank_controllers.xacro
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/base.urdf
+[15.531s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jetank_main.gazebo
+[15.532s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jetank_sensors.xacro
+[15.532s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/urdf/jenga.urdf
+[15.532s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/worlds
+[15.532s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/worlds/detachablee_join.sdf
+[15.532s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/worlds/empty_world.sdf
+[15.533s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models
+[15.533s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt
+[15.533s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/model.config
+[15.533s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/meshes
+[15.533s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/meshes/conveyor_belt.dae
+[15.535s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/meshes/conveyor_belt1.dae
+[15.537s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/meshes/conveyor_belt.blend
+[15.541s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/meshes/conveyor_belt.stl
+[15.542s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/conveyor_belt/model.sdf
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/jenga_magnetic
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/jenga_magnetic/model.config
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/models/jenga_magnetic/model.sdf
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual
+[15.543s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/BEARING_1.stl
+[15.546s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/base_link.stl
+[15.547s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/ARM_LOWER_1.stl
+[15.548s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/MAGNETIC_BAR_1.stl
+[15.548s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/SERVO_END_1.stl
+[15.551s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/FREE_WHEEL_L_1.stl
+[15.552s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/CAM_HOLDER.stl
+[15.553s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/SERVO_TOP_1.stl
+[15.555s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/SERVO_LOWER_1.stl
+[15.558s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/ARM_LOW_2.stl
+[15.558s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/FREE_WHEEL_R_1.stl
+[15.560s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/MAGNETIC_1.stl
+[15.560s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/ANTENNA_L_1.stl
+[15.561s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/DRIVER_WHEEL_L_1.stl
+[15.562s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/CAMERA.stl
+[15.563s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/ARM_MIDDLE_1.stl
+[15.564s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/ANTENNA_R_2.stl
+[15.564s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/SERVO_UPPER_1.stl
+[15.567s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/DRIVER_WHEEL_R_2.stl
+[15.568s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/visual/MAGNETIC_HOLDER_1.stl
+[15.569s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes
+[15.569s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/SERVO_UPPER_1_box.stl
+[15.569s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/FREE_WHEEL_R_1_box.stl
+[15.570s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/MAGNETIC_HOLDER_1_box.stl
+[15.570s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/ANTENNA_L_1_box.stl
+[15.570s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/ARM_MIDDLE_1_box.stl
+[15.570s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/CAMERA_box.stl
+[15.571s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/ARM_LOW_2_box.stl
+[15.571s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/SERVO_LOWER_1_box.stl
+[15.571s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/base_link_box.stl
+[15.571s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/MAGNETIC_1_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/CAM_HOLDER_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/ARM_LOWER_1_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/DRIVER_WHEEL_R_2_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/MAGNETIC_BAR_1_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/DRIVER_WHEEL_L_1_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/BEARING_1_box.stl
+[15.572s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/ANTENNA_R_2_box.stl
+[15.573s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/SERVO_TOP_1_box.stl
+[15.573s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/FREE_WHEEL_L_1_box.stl
+[15.573s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision_boxes/SERVO_END_1_box.stl
+[15.573s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision
+[15.573s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/BEARING_1.stl
+[15.576s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/base_link.stl
+[15.577s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/ARM_LOWER_1.stl
+[15.578s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/MAGNETIC_BAR_1.stl
+[15.578s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/SERVO_END_1.stl
+[15.580s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/FREE_WHEEL_L_1.stl
+[15.582s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/CAM_HOLDER.stl
+[15.583s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/SERVO_TOP_1.stl
+[15.585s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/SERVO_LOWER_1.stl
+[15.587s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/ARM_LOW_2.stl
+[15.588s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/FREE_WHEEL_R_1.stl
+[15.590s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/MAGNETIC_1.stl
+[15.590s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/ANTENNA_L_1.stl
+[15.591s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/DRIVER_WHEEL_L_1.stl
+[15.592s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/CAMERA.stl
+[15.593s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/ARM_MIDDLE_1.stl
+[15.594s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/ANTENNA_R_2.stl
+[15.594s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/SERVO_UPPER_1.stl
+[15.597s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/DRIVER_WHEEL_R_2.stl
+[15.598s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/meshes/collision/MAGNETIC_HOLDER_1.stl
+[15.599s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config
+[15.599s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/gz_bridge.yaml
+[15.599s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/rc_car_controllers.yaml
+[15.599s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/jetank_nav2.yaml
+[15.599s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/jetank_controllers.yaml
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/gazebo.rviz
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/config/display.rviz
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/scripts
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/scripts/generate_collision_boxes.py
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/scripts/rc_car_pose_tf.py
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/scripts/detach.py
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/lib/jetank_description/rc_car_pose_tf.py
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/ament_index/resource_index/package_run_dependencies/jetank_description
+[15.600s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/ament_index/resource_index/parent_prefix_path/jetank_description
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/environment/ament_prefix_path.sh
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/environment/ament_prefix_path.dsv
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/environment/path.sh
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/environment/path.dsv
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/local_setup.bash
+[15.601s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/local_setup.sh
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/local_setup.zsh
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/local_setup.dsv
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.dsv
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/ament_index/resource_index/packages/jetank_description
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/cmake/jetank_descriptionConfig.cmake
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/cmake/jetank_descriptionConfig-version.cmake
+[15.602s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/share/jetank_description/package.xml
+[15.603s] -- Installing: /home/ssafy/robot_ws/src/install/jetank_description/lib/libconveyor_plugin.so
+[15.606s] -- Set runtime path of "/home/ssafy/robot_ws/src/install/jetank_description/lib/libconveyor_plugin.so" to ""
+[15.609s] Invoked command in '/home/ssafy/robot_ws/src/build/jetank_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ssafy/robot_ws/install/rc_nav2_bringup:/home/ssafy/robot_ws/install/rc_car_test_description:/home/ssafy/robot_ws/install/nav2_remote_goal:/home/ssafy/rtabmap_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/ssafy/robot_ws/src/build/jetank_description

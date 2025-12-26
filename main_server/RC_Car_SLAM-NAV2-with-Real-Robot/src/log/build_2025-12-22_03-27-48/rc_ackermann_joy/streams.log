@@ -1,0 +1,41 @@
+[1.791s] Invoking command in '/home/ssafy/robot_ws/src/rc_ackermann_joy': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_ackermann_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_ackermann_joy build --build-base /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build install --record /home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log --single-version-externally-managed install_data
+[2.085s] running egg_info
+[2.085s] creating ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info
+[2.086s] writing ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/PKG-INFO
+[2.086s] writing dependency_links to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/dependency_links.txt
+[2.086s] writing entry points to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/entry_points.txt
+[2.086s] writing requirements to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/requires.txt
+[2.086s] writing top-level names to ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/top_level.txt
+[2.087s] writing manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+[2.088s] reading manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+[2.089s] writing manifest file '../build/rc_ackermann_joy/rc_ackermann_joy.egg-info/SOURCES.txt'
+[2.089s] running build
+[2.089s] running build_py
+[2.089s] creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build
+[2.089s] creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib
+[2.090s] creating /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+[2.090s] copying rc_ackermann_joy/joy_to_ackermann.py -> /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+[2.090s] warning: build_py: byte-compiling is disabled, skipping.
+[2.090s] 
+[2.090s] copying rc_ackermann_joy/__init__.py -> /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy
+[2.090s] running install
+[2.090s] running install_lib
+[2.091s] creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+[2.091s] copying /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy/joy_to_ackermann.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+[2.091s] warning: install_lib: byte-compiling is disabled, skipping.
+[2.092s] 
+[2.092s] copying /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build/lib/rc_ackermann_joy/__init__.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy
+[2.092s] running install_data
+[2.092s] creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index
+[2.092s] creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index
+[2.092s] creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index/packages
+[2.092s] copying resource/rc_ackermann_joy -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/ament_index/resource_index/packages
+[2.092s] copying package.xml -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy
+[2.092s] creating /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/launch
+[2.092s] copying launch/joy_to_ackermann.launch.py -> /home/ssafy/robot_ws/src/install/rc_ackermann_joy/share/rc_ackermann_joy/launch
+[2.092s] running install_egg_info
+[2.094s] Copying ../build/rc_ackermann_joy/rc_ackermann_joy.egg-info to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages/rc_ackermann_joy-0.0.0-py3.10.egg-info
+[2.095s] running install_scripts
+[2.120s] Installing joy_to_ackermann script to /home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/rc_ackermann_joy
+[2.120s] writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log'
+[2.152s] Invoked command in '/home/ssafy/robot_ws/src/rc_ackermann_joy' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_ackermann_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_ackermann_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_ackermann_joy build --build-base /home/ssafy/robot_ws/src/build/rc_ackermann_joy/build install --record /home/ssafy/robot_ws/src/build/rc_ackermann_joy/install.log --single-version-externally-managed install_data

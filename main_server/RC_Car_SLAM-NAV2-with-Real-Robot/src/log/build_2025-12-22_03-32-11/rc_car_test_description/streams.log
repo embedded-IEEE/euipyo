@@ -1,0 +1,28 @@
+[1.822s] Invoking command in '/home/ssafy/robot_ws/src/rc_car_test_description': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data
+[2.118s] running egg_info
+[2.120s] writing ../build/rc_car_test_description/rc_car_test_description.egg-info/PKG-INFO
+[2.120s] writing dependency_links to ../build/rc_car_test_description/rc_car_test_description.egg-info/dependency_links.txt
+[2.120s] writing entry points to ../build/rc_car_test_description/rc_car_test_description.egg-info/entry_points.txt
+[2.121s] writing requirements to ../build/rc_car_test_description/rc_car_test_description.egg-info/requires.txt
+[2.121s] writing top-level names to ../build/rc_car_test_description/rc_car_test_description.egg-info/top_level.txt
+[2.124s] reading manifest file '../build/rc_car_test_description/rc_car_test_description.egg-info/SOURCES.txt'
+[2.126s] writing manifest file '../build/rc_car_test_description/rc_car_test_description.egg-info/SOURCES.txt'
+[2.126s] running build
+[2.126s] running build_py
+[2.127s] warning: build_py: byte-compiling is disabled, skipping.
+[2.127s] 
+[2.127s] running install
+[2.128s] running install_lib
+[2.129s] warning: install_lib: byte-compiling is disabled, skipping.
+[2.129s] 
+[2.129s] running install_data
+[2.130s] copying launch/display.launch.py -> /home/ssafy/robot_ws/src/install/rc_car_test_description/share/rc_car_test_description/launch
+[2.131s] running install_egg_info
+[2.134s] removing '/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description-0.0.0-py3.10.egg-info' (and everything under it)
+[2.134s] Copying ../build/rc_car_test_description/rc_car_test_description.egg-info to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages/rc_car_test_description-0.0.0-py3.10.egg-info
+[2.135s] running install_scripts
+[2.167s] Installing odom_stamp_rewriter script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.168s] Installing scan_frame_rewriter script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.168s] Installing twist_to_joint_cmd script to /home/ssafy/robot_ws/src/install/rc_car_test_description/lib/rc_car_test_description
+[2.168s] writing list of installed files to '/home/ssafy/robot_ws/src/build/rc_car_test_description/install.log'
+[2.197s] Invoked command in '/home/ssafy/robot_ws/src/rc_car_test_description' returned '0': PYTHONPATH=/home/ssafy/robot_ws/src/build/rc_car_test_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ssafy/robot_ws/src/install/rc_car_test_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rc_car_test_description build --build-base /home/ssafy/robot_ws/src/build/rc_car_test_description/build install --record /home/ssafy/robot_ws/src/build/rc_car_test_description/install.log --single-version-externally-managed install_data

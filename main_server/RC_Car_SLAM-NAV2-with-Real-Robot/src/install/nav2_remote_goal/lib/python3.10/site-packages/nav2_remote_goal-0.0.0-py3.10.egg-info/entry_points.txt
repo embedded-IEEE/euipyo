@@ -1,0 +1,3 @@
+[console_scripts]
+remote_goal = nav2_remote_goal.remote_goal:main
+

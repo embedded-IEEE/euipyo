@@ -1,0 +1,32 @@
+/**/controller_manager:
+  ros__parameters:
+    update_rate: 50
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    # Controller for executing  trajectories on a group of joints.
+    arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+## here are the parameters of each controller ##
+/**/arm_controller:
+  ros__parameters:
+    joints:
+      - Revolute_BEARING
+      - Revolute_SERVO_UPPER
+      - Revolute_ARM_LOW
+      - Revolute_SERVO_TOP
+      - Revolute_MAGNETIC_BAR
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+    
+    action_monitor_rate: 20.0
+    allow_partial_joints_goal: true
+    open_loop_control: true
+
